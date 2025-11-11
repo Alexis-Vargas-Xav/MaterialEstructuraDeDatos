@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estructura de Datos - ESPOCH</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #003366;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #0059b3;
+    }
+    section {
+      padding: 2em;
+      background-color: white;
+      margin: 1em;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Asignatura: Estructura de Datos</h1>
+  <p>Escuela Superior Politécnica de Chimborazo - Sede Orellana</p>
+</header>
+
+<nav>
+  <a href="#unidad1">Unidad 1</a>
+  <a href="#unidad2">Unidad 2</a>
+  <a href="#unidad3">Unidad 3</a>
+  <a href="#unidad4">Unidad 4</a>
+</nav>
+
+<section id="unidad1">
+  <h2>Unidad 1: Fundamentos e Introducción a las Estructuras de Datos</h2>
+  <p>Identificación de características, historia, ventajas y tipos de datos (primitivos, compuestos, agregados, abstractos).</p>
+</section>
+
+<section id="unidad2">
+  <h2>Unidad 2: Estructuras de Datos Lineales</h2>
+  <p>Estudio de pilas, colas y listas. Incluye operaciones, representaciones gráficas y aplicaciones prácticas.</p>
+</section>
+
+<section id="unidad3">
+  <h2>Unidad 3: Estructuras de Datos No Lineales</h2>
+  <p>Árboles y grafos: definición, representación, recorrido, propiedades y aplicaciones en problemas computacionales.</p>
+</section>
+
+<section id="unidad4">
+  <h2>Unidad 4: Búsqueda y Ordenamiento</h2>
+  <p>Algoritmos de ordenamiento (burbuja, quicksort, mergesort) y búsqueda (secuencial, binaria, hash). Análisis de complejidad.</p>
+</section>
+
+</body>
+</html>
